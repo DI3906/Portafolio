@@ -1,0 +1,9 @@
+.footer{
+    background: var(--background-1);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: var(--raleway);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,57 @@
+.experiencia{
+    background: var(--background-1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.experiencia__caja{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.experiencia__img{
+    width: 47rem;
+}
+
+.experiencia__info{
+    padding-left: 2rem;
+}
+
+.experiencia__info-titulo{
+    font-family: var(--raleway);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.experiencia__info-texto{
+    font-family: var(--raleway);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.experiencia__repositorio-boton{
+    font-family: var(--raleway);
+    font-size: 1rem;
+    color: var(--color-boton);
+    background: none;
+    width: 6.5rem;
+    height: 3rem;
+    border-color: var(--color-boton);
+    border-radius: .5rem;
+}
+
+.experiencia__demo-boton{
+    font-family: var(--raleway);
+    font-size: 1rem;
+    font-size: 1rem;
+    color: var(--background-1);
+    background: var(--color-boton);
+    width: 6.5rem;
+    height: 3rem;
+    border-color: var(--color-boton);
+    border-radius: .5rem;
+}

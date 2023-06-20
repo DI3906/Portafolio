@@ -1,0 +1,28 @@
+.menu__header{
+    align-items: center;
+    background: var(--background-1);
+    display: flex;
+    justify-content: space-between;
+    /*padding-left: 2rem;
+    padding-right: 2rem;*/
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.menu__titulo{
+    font-weight: bold;
+}
+
+.menu__lista{
+    display: flex;
+}
+
+.menu__item{
+    list-style: none;
+}
+
+.menu__link{
+    color: var(--color-font);
+    margin-right: 1.25rem;
+    text-decoration: none;
+    font-family: var(--monserrat);
+}

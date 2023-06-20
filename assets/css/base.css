@@ -1,0 +1,23 @@
+:root{
+    --background-1: #F9F5EB;
+    --background-2: #E4DCCF;
+    --color-font: #002B5B;
+    --color-boton: #4F709C;
+
+    --monserrat: 'Monserrat', sans-serif;
+    --geologica: 'Geologica', sans-serif;
+    --raleway: 'Raleway', sans-serif;
+
+    --warning-color: #df2525;
+}
+
+body{
+    font-family: var(--monserrat);
+}
+
+.titulo{
+    font-family: var(--geologica);
+    color: var(--color-font);
+    margin-top: 1rem;
+    font-size: 2rem;
+}

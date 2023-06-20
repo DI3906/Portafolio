@@ -1,0 +1,13 @@
+.sobre__contenedor{
+    background: var(--background-2);
+    display: flex;
+    flex-direction: column;
+    padding: 3% 30% 3% 5%;
+}
+
+.sobre__parrafo{
+    font-family: var(--raleway);
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding-top: 2%;
+}
