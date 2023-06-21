@@ -54,4 +54,28 @@
     height: 3rem;
     border-color: var(--color-boton);
     border-radius: .5rem;
+    margin-left: .5rem;
+}
+
+@media (min-width: 576px) and (max-width: 991.98px){
+    .experiencia__img{
+        width: 44rem;
+        height: auto;
+    }
+
+    .experiencia__caja{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .experiencia__info-titulo{
+        font-size: 1.20rem;
+        padding-top: 1rem;
+    }
+
+    .experiencia__info-texto{
+        font-size: .875rem;
+        padding-bottom: .5rem;
+    }
 }

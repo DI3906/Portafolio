@@ -21,3 +21,15 @@ body{
     margin-top: 1rem;
     font-size: 2rem;
 }
+
+.boton-iluminado:hover{
+    background: var(--color-font);
+    color: var(--background-1);
+    transition: 1s;
+}
+
+@media (max-width: 768px) {
+    .titulo{
+        font-size: 1.375rem;
+    }
+}

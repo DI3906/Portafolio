@@ -71,4 +71,11 @@
 .contacto__form--invalid .contacto__form-input {
     border: 1px solid var(--warning-color);
     border-radius: 7px;
-} 
+}
+
+@media (min-width: 576px) and (max-width: 991.98px){
+    .contacto__form{
+        display: flex;
+        align-items: flex-start;
+    }
+}
