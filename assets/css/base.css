@@ -28,6 +28,13 @@ body{
     transition: 1s;
 }
 
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .titulo{
+        font-size: 1.375rem;
+    }
+}
+
 @media (max-width: 768px) {
     .titulo{
         font-size: 1.375rem;

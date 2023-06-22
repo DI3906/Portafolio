@@ -29,11 +29,23 @@
     font-family: var(--monserrat);
 }
 
-@media (min-width: 576px) and (max-width: 991.98px){
+/*M Ó V I L*/
+@media (max-width: 575.98px){
     .menu__item{
-        visibility: hidden;
+        display: none;
     }
     .menu__item:nth-last-child(1){
-        visibility: visible;
+        display: flex;
+        font-weight: lighter;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .menu__item{
+        display: none;
+    }
+    .menu__item:nth-last-child(1){
+        display: flex;
     }
 }

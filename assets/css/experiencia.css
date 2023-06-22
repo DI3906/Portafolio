@@ -57,9 +57,34 @@
     margin-left: .5rem;
 }
 
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .experiencia__img{
+        width: 85vw;
+        height: auto;
+    }
+
+    .experiencia__caja{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .experiencia__info-titulo{
+        font-size: 1.20rem;
+        padding-top: 1rem;
+    }
+
+    .experiencia__info-texto{
+        font-size: .875rem;
+        padding-bottom: .5rem;
+    }
+}
+
+/*T A B L E T*/
 @media (min-width: 576px) and (max-width: 991.98px){
     .experiencia__img{
-        width: 44rem;
+        width: 95vw;
         height: auto;
     }
 

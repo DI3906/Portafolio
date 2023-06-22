@@ -73,7 +73,39 @@
     border-radius: 7px;
 }
 
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .contacto__caja{
+        display: flex;
+        align-items: flex-start;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .contacto__form-input{
+        width: 85vw;
+    }
+
+    .contacto__form-textarea{
+        width: 85vw;
+    }
+
+    .contacto__form{
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+/*T A B L E T*/
 @media (min-width: 576px) and (max-width: 991.98px){
+    .contacto__form-input{
+        width: 85vw;
+    }
+
+    .contacto__form-textarea{
+        width: 85vw;
+    }
+
     .contacto__form{
         display: flex;
         align-items: flex-start;

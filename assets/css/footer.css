@@ -1,4 +1,5 @@
 .footer{
+    width: 100vw;
     background: var(--background-1);
     padding-top: 1rem;
     padding-bottom: 1rem;
