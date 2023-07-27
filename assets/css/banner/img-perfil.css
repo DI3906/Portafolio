@@ -1,0 +1,21 @@
+.img__perfil{
+    height: 368px;
+    width: 368px;
+    border-radius: 50%;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .img__perfil{
+        width: 98px;
+        height: 98px;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .img__perfil{
+        width: 146px;
+        height: 146px;
+    }
+}

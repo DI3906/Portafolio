@@ -1,6 +1,5 @@
 .menu__lista{
-    display: flex;/* 
-    margin-right: 3rem; */
+    display: flex;
 }
 
 .menu__lista:hover > :not(:hover){

@@ -3,5 +3,20 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    padding: 3% 5% 3% 5%;
+
+    padding: 3rem 0;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .banner__div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/*T A B L E T A*/
+@media (max-width: 768px) {
+
 }

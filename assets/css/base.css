@@ -1,9 +1,9 @@
 :root{
     --black: #212121;
-    --rojo-difuminado: #950101;
     --rojo-base: #FF0000;
 
     --color-font: #F5F5F5;
+    --color-titulo: #DF2525;
 
     --background-1: #F9F5EB;
     --background-2: #E4DCCF;
@@ -13,7 +13,6 @@
     --geologica: 'Geologica', sans-serif;
     --raleway: 'Raleway', sans-serif;
 
-    --warning-color: #df2525;
 }
 
 body{
@@ -41,6 +40,7 @@ body{
     }
 }
 
+/*T A B L E T A*/
 @media (max-width: 768px) {
     .titulo{
         font-size: 1.375rem;

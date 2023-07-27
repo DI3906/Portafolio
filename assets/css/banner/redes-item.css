@@ -1,0 +1,13 @@
+.redes__item{
+    margin-left: 1rem;
+
+    transition: .3s;
+}
+
+.redes__item:hover{
+    text-shadow: 
+        #FF2D95 0px 0px 20px, 
+        #FF2D95 0px 0px 30px, 
+        #FF2D95 0px 0px 40px, 
+        #FF2D95 0px 0px 50px;
+}

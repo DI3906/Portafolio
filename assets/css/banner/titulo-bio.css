@@ -1,0 +1,19 @@
+.titulo__bio{
+    font-family: var(--geologica);
+    font-size: 3.25rem;
+    color: var(--color-font);
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .titulo__bio{
+        font-size: 1.375rem;
+    }
+}
+
+/*T A B L E T A*/
+@media (max-width: 768px) {
+    .titulo__bio{
+        font-size: 1.375rem;
+    }
+}

@@ -1,0 +1,7 @@
+.redes{
+    display: flex;
+}
+
+.redes:hover > :not(:hover){
+    opacity: .4;
+}
