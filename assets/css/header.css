@@ -1,51 +1,10 @@
-.menu__header{
+.header{
+    width: 90%;
+    height: 3.5rem;
+
+    display: flex;
     align-items: center;
-    background: var(--background-1);
-    display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem 1rem 2rem;
-}
 
-.menu__titulo{
-    font-weight: bold;
-}
-
-.menu__lista{
-    display: flex;
-}
-
-.menu__item{
-    list-style: none;
-}
-
-.menu__item:nth-last-child(1){
-    font-weight: bold;
-}
-
-.menu__link{
-    color: var(--color-font);
-    margin-right: 1.25rem;
-    text-decoration: none;
-    font-family: var(--monserrat);
-}
-
-/*M Ó V I L*/
-@media (max-width: 575.98px){
-    .menu__item{
-        display: none;
-    }
-    .menu__item:nth-last-child(1){
-        display: flex;
-        font-weight: lighter;
-    }
-}
-
-/*T A B L E T*/
-@media (min-width: 576px) and (max-width: 991.98px){
-    .menu__item{
-        display: none;
-    }
-    .menu__item:nth-last-child(1){
-        display: flex;
-    }
+    margin: auto;
 }

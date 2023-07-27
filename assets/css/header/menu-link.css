@@ -1,0 +1,7 @@
+.menu__link{
+    color: var(--rojo-base);
+    margin-right: 1.25rem;
+    text-decoration: none;
+    font-family: var(--monserrat);
+    font-size: 1.25rem;
+}

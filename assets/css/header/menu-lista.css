@@ -1,0 +1,8 @@
+.menu__lista{
+    display: flex;/* 
+    margin-right: 3rem; */
+}
+
+.menu__lista:hover > :not(:hover){
+    opacity: .4;
+}

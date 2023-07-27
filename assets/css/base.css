@@ -1,7 +1,12 @@
 :root{
+    --black: #212121;
+    --rojo-difuminado: #950101;
+    --rojo-base: #FF0000;
+
+    --color-font: #F5F5F5;
+
     --background-1: #F9F5EB;
     --background-2: #E4DCCF;
-    --color-font: #002B5B;
     --color-boton: #4F709C;
 
     --monserrat: 'Monserrat', sans-serif;
@@ -13,6 +18,7 @@
 
 body{
     font-family: var(--monserrat);
+    background: var(--black);
 }
 
 .titulo{

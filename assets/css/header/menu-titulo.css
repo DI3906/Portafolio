@@ -1,0 +1,16 @@
+.menu__titulo{
+    color: var(--color-font);
+
+    font-weight: bold;
+    font-size: 1.25rem;
+/* 
+    margin-left: 3rem; */
+}
+
+.menu__titulo:hover{
+    text-shadow: 
+        var(--color-font) 0px 0px 20px, 
+        var(--color-font) 0px 0px 30px, 
+        var(--color-font) 0px 0px 40px, 
+        var(--color-font) 0px 0px 50px;
+}

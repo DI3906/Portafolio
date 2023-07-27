@@ -1,9 +1,9 @@
-.banner__div{
-    background: var(--background-1);
+.banner{
+    width: 90%  ;
+    background: forestgreen;
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
-    padding: 3% 5% 3% 5%;
+    justify-content: center;
 }
 
 .img__perfil{

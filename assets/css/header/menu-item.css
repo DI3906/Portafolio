@@ -1,0 +1,36 @@
+.menu__item{
+    transition: .3s;
+}
+
+.menu__item:hover{
+    text-shadow: 
+        #FF2D95 0px 0px 20px, 
+        #FF2D95 0px 0px 30px, 
+        #FF2D95 0px 0px 40px, 
+        #FF2D95 0px 0px 50px;
+}
+
+.menu__item:nth-last-child(1){
+    font-weight: bold;
+}
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .menu__item{
+        display: none;
+    }
+    .menu__item:nth-last-child(1){
+        display: flex;
+        font-weight: lighter;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .menu__item{
+        display: none;
+    }
+    .menu__item:nth-last-child(1){
+        display: flex;
+    }
+}

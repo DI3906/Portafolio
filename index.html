@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portafolio</title>
+
     <!--FUENTES-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap" rel="stylesheet">
@@ -12,22 +13,32 @@
     <!--STYLE-->
     <link rel="stylesheet" href="assets/css/reset.css">
     <!--<link rel="stylesheet" href="assets/css/normalize.css">-->
+
     <link rel="stylesheet" href="assets/css/base.css">
-    <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/banner.css">
+
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/header/menu-titulo.css"> 
+    <link rel="stylesheet" href="./assets/css/header/menu-lista.css">
+    <link rel="stylesheet" href="./assets/css/header/menu-item.css">
+    <link rel="stylesheet" href="./assets/css/header/menu-link.css">
+
+
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/banner/banner-div.css">
+
     <link rel="stylesheet" href="assets/css/sobre.css">
     <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/hobbie.css">
     <link rel="stylesheet" href="assets/css/formacion.css">
     <link rel="stylesheet" href="assets/css/experiencia.css">
     <link rel="stylesheet" href="assets/css/contacto.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/rodapie.css">
 
 </head>
 <body>
-    <header class="menu__header">
+    <header class="header">
         <!--<img src="assets\vector.png">-->
-        <h3 class="menu__titulo">Diego</h3>
+        <a href="index.html" class="menu__titulo">Diego</a>
         <nav class="menu">
             <ul class="menu__lista">
                 <li class="menu__item"><a href="#sobre-mi" class="menu__link">Sobre mi</a></li>
@@ -39,49 +50,50 @@
             </ul>
         </nav>
     </header>
+    <main>
     <!--B A N E R-->
-    <section class="banner">
-        <div class="banner__div">
-            <img src="assets/img/20060018.png" alt="Foto de perfil" class="img__perfil">
-            <div class="titulos">
-                <h2 class="titulo__bio">Hola, mi nombre es Diego Garcia Coronado y construyo páginas web</h2>
-                <h3 class="titulo__subsection">Soy de México, estudio en el TecNM Campus Costa Chica y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</h3>
-                <ul class="titulo__redes">
-                    <li class="titulo__redes-item"><a href="https://github.com/DI3906" class="titulo__redes-link"><img src="assets/img/logo-github.svg" alt="Logo Github" class="titulo__logo">Github</a></li>
-                    <li class="titulo__redes-item"><a href="https://www.linkedin.com/in/diego-garc%C3%ADa-934114262" class="titulo__redes-link"><img src="assets/img/logo-linkedin.svg" alt="Logo Linkedin" class="titulo__logo">Linkedin</a></li>
-                </ul>
+        <section class="banner">
+            <div class="banner__div">
+                <img src="assets/img/200600d18.png" alt="Foto de perfil" class="img__perfil">
+                <div class="titulos">
+                    <h2 class="titulo__bio">Hola, mi nombre es Diego Garcia Coronado y construyo páginas web</h2>
+                    <h3 class="titulo__subsection">Soy de México, estudio en el TecNM Campus Costa Chica y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</h3>
+                    <ul class="redes">
+                        <li class="redes__item"><a href="https://github.com/DI3906" class="redes__link"><img src="assets/img/logo-github.svg" alt="Logo Github" class="redes__logo">Github</a></li>
+                        <li class="redes__item"><a href="https://www.linkedin.com/in/diego-garc%C3%ADa-934114262" class="redes__link"><img src="assets/img/logo-linkedin.svg" alt="Logo Linkedin" class="redes__logo">Linkedin</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
     <!--S O B R E  M I-->
-    <section class="sobre" id="sobre-mi">
-        <div class="sobre__contenedor">
-            <h3 class="sobre__titulo titulo">Sobre mi</h3>
-            <p class="sobre__parrafo">Me agrada trabajar en equipo, cooperando con todos y ayudando de la mejor manera posible, con gran satisfacción en enseñar y aprender.</p>
-            <p class="sobre__parrafo">Busco oportunidades para hacer prácticas en el área de Programación, que permita mi crecimiento intelectual y a desarrollar mis conocimientos técnicos, para crecer junto a la empresa y a mis compañeros de trabajo.</p>
-            <!-- Si quieres, pon tú firma acá! -->
-            <!--<img src="assets\signature.png">-->
-        </div>
-    </section>
+        <section class="sobre" id="sobre-mi">
+            <div class="sobre__contenedor">
+                <h3 class="sobre__titulo titulo">Sobre mi</h3>
+                <p class="sobre__parrafo">Me agrada trabajar en equipo, cooperando con todos y ayudando de la mejor manera posible, con gran satisfacción en enseñar y aprender.</p>
+                <p class="sobre__parrafo">Busco oportunidades para hacer prácticas en el área de Programación, que permita mi crecimiento intelectual y a desarrollar mis conocimientos técnicos, para crecer junto a la empresa y a mis compañeros de trabajo.</p>
+                <!-- Si quieres, pon tú firma acá! -->
+                <!--<img src="assets\signature.png">-->
+            </div>
+        </section>
     <!--S K I L L S-->
-    <section class="skill" id="skills">
-        <h3 class="skill__titulo titulo">Skills</h3>
-        <ul class="skill__lista">
-            <li class="skill__lista-item"><img src="assets/img/icons8-html.svg" alt="Logo HTML" class="img__skill">HTML 5</li>
-            <li class="skill__lista-item"><img src="assets/img/icons8-css.svg" alt="Logo CSS" class="img__skill">CSS</li>
-            <li class="skill__lista-item"><img src="assets/img/icons8-javascript.svg" alt="Logo JavaScript" class="img__skill">JavaScript</li>
-            <li class="skill__lista-item"><img src="assets/img/icons8-logotipo-de-java-coffee-cup.svg" alt="Logo Java" class="img__skill">Java</li>
-        </ul>
-    </section>
+        <section class="skill" id="skills">
+            <h3 class="skill__titulo titulo">Skills</h3>
+            <ul class="skill__lista">
+                <li class="skill__lista-item"><img src="assets/img/icons8-html.svg" alt="Logo HTML" class="img__skill">HTML 5</li>
+                <li class="skill__lista-item"><img src="assets/img/icons8-css.svg" alt="Logo CSS" class="img__skill">CSS</li>
+                <li class="skill__lista-item"><img src="assets/img/icons8-javascript.svg" alt="Logo JavaScript" class="img__skill">JavaScript</li>
+                <li class="skill__lista-item"><img src="assets/img/icons8-logotipo-de-java-coffee-cup.svg" alt="Logo Java" class="img__skill">Java</li>
+            </ul>
+        </section>
     <!--H O B B I E S-->
-    <section class="hobbie" id="hobbies">
-        <h3 class="hobbie__titulo titulo">Hobbies</h3>
-        <ul class="hobbie__lista">
-            <li class="hobbie__lista-item"><img src="assets/img/chess.svg" alt="Ajedrez" class="hobbie__img">Ajedrez</li>
-            <li class="hobbie__lista-item"><img src="assets/img/monitor-play.svg" alt="Cine" class="hobbie__img">Ver series</li>
-            <li class="hobbie__lista-item"><img src="assets/img/headphones.svg" alt="Música" class="hobbie__img">Oir música</li>
-        </ul>
-    </section>
+        <section class="hobbie" id="hobbies">
+            <h3 class="hobbie__titulo titulo">Hobbies</h3>
+            <ul class="hobbie__lista">
+                <li class="hobbie__lista-item"><img src="assets/img/chess.svg" alt="Ajedrez" class="hobbie__img">Ajedrez</li>
+                <li class="hobbie__lista-item"><img src="assets/img/monitor-play.svg" alt="Cine" class="hobbie__img">Ver series</li>
+                <li class="hobbie__lista-item"><img src="assets/img/headphones.svg" alt="Música" class="hobbie__img">Oir música</li>
+            </ul>
+        </section>
     <!--F O R M A C I O N-->
     <section class="formacion" id="formacion">
         <h3 class="formacion__titulo titulo">Formación Académica</h3>
@@ -129,8 +141,9 @@
             </form>
         </div>
     </section>
+    </main>
     <!--F O O T E R-->
-    <footer class="footer">
+    <footer class="rodapie">
         <p>Desarrollado por Diego Garcia</p>
         <p>2023</p>
     </footer>
