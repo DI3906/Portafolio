@@ -1,0 +1,11 @@
+.sobre__titulo{
+    color: var(--color-titulo);
+}
+
+.sobre__titulo:hover{
+    text-shadow: 
+        var(--color-titulo) 0px 0px 20px, 
+        var(--color-titulo) 0px 0px 30px, 
+        var(--color-titulo) 0px 0px 40px, 
+        var(--color-titulo) 0px 0px 50px;
+}

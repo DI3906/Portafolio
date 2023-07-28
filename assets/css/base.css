@@ -22,9 +22,12 @@ body{
 
 .titulo{
     font-family: var(--geologica);
-    color: var(--color-font);
-    margin-top: 1rem;
     font-size: 2rem;
+}
+
+.parrafo{
+    font-family: var(--raleway);
+    font-size: 1.125rem;
 }
 
 .boton-iluminado:hover{

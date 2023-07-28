@@ -1,15 +1,8 @@
-.sobre__contenedor{
-    background: var(--background-2);
+.sobre{
     display: flex;
-    flex-direction: column;
-    padding: 3% 30% 3% 5%;
-}
+    padding: 3rem 0;
 
-.sobre__parrafo{
-    font-family: var(--raleway);
-    font-size: 1.125rem;
-    font-weight: bold;
-    padding-top: 2%;
+    border-top: 1px solid var(--color-font);
 }
 
 /*M Ó V I L*/
