@@ -1,0 +1,45 @@
+.boton{
+    width: 7rem;
+    font-size: 1rem;
+    color: var(--color-font);
+
+    border: 2px solid var(--color-titulo);
+    border-radius: 4px;
+
+    margin-right: 1rem;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+
+    transition: .3s;
+}
+
+.boton:hover{
+    background: var(--color-titulo);
+    transition: .5s;
+    box-shadow: 
+        #FF2D95 0px 0px 20px, 
+        #FF2D95 0px 0px 30px, 
+        #FF2D95 0px 0px 40px, 
+        #FF2D95 0px 0px 50px;
+    
+    color: transparent;
+}
+
+.boton:hover .boton__icon{
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    transition-duration: .3s;
+}
+
+.boton:active{
+    transform: translate(3px , 3px);
+    transition-duration: .3s;
+}
+
+.boton:nth-last-child(1){
+    margin-right: 0;
+}

@@ -1,0 +1,10 @@
+.boton__icon{
+    width: 1.5rem;
+    position: absolute;
+    
+    right: 0;
+    margin-right: 1rem;
+
+    fill: var(--color-font);
+    transition: .3s;
+}

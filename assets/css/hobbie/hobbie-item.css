@@ -13,8 +13,9 @@
     width: 10rem;
     height: 10rem;
 
-    border: 1px solid var(--color-font);
     border-radius: .5rem;
+
+    transition: .5s;
 
 }
 
