@@ -8,8 +8,9 @@
     <!--FUENTES-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap" rel="stylesheet">
 
+    <link rel="shortcut icon" href="./assets/img/icon/balaclava-svgrepo-com.ico">
     <!--STYLE-->
     <link rel="stylesheet" href="assets/css/reset.css">
     <!--<link rel="stylesheet" href="assets/css/normalize.css">-->
@@ -37,10 +38,37 @@
     <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre-parrafo.css">
     
-    <link rel="stylesheet" href="assets/css/skills.css">
-    <link rel="stylesheet" href="assets/css/hobbie.css">
-    <link rel="stylesheet" href="assets/css/formacion.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/skill/skill-titulo.css">
+    <link rel="stylesheet" href="./assets/css/skill/skill-lista.css">
+    <link rel="stylesheet" href="./assets/css/skill/skill-item.css">
+    <link rel="stylesheet" href="./assets/css/skill/skill-img.css">
+
+    <link rel="stylesheet" href="./assets/css/hobbie.css">
+    <link rel="stylesheet" href="./assets/css/hobbie/hobbie-titulo.css">
+    <link rel="stylesheet" href="./assets/css/hobbie/hobbie-lista.css">
+    <link rel="stylesheet" href="./assets/css/hobbie/hobbie-item.css">
+    <link rel="stylesheet" href="./assets/css/hobbie/hobbie-img.css">
+
+    <link rel="stylesheet" href="./assets/css/formacion.css">
+    <link rel="stylesheet" href="./assets/css/formacion/formacion-titulo.css">
+    <link rel="stylesheet" href="./assets/css/formacion/formacion-contenedor.css">
+    <link rel="stylesheet" href="./assets/css/formacion/formacion-lista.css">
+    <link rel="stylesheet" href="./assets/css/formacion/formacion-lista-img.css">
+    <link rel="stylesheet" href="./assets/css/formacion/formacion-lista-titulo.css">
+    <link rel="stylesheet" href="./assets/css/formacion/formacion-lista-subtitulo.css">
+
     <link rel="stylesheet" href="assets/css/experiencia.css">
+    <link rel="stylesheet" href="assets/css/experiencia/experiencia-titulo.css">
+    <link rel="stylesheet" href="assets/css/experiencia/experiencia-contenedor.css">
+    <link rel="stylesheet" href="assets/css/experiencia/proyecto.css">
+    <link rel="stylesheet" href="assets/css/experiencia/proyecto-imagen.css">
+    <link rel="stylesheet" href="assets/css/experiencia/proyecto-info.css">
+    <link rel="stylesheet" href="assets/css/experiencia/proyecto-into-titulo.css">
+    <link rel="stylesheet" href="assets/css/experiencia/proyecto-info-texto.css">
+    <link rel="stylesheet" href="assets/css/experiencia/proyecto-info-botones.css">
+    <link rel="stylesheet" href="assets/css/experiencia/boton.css">
+
     <link rel="stylesheet" href="assets/css/contacto.css">
     <link rel="stylesheet" href="assets/css/rodapie.css">
 
@@ -66,7 +94,7 @@
             <div class="banner__div">
                 <img src="./assets/img/perfil.jpg" alt="Foto de perfil" class="img__perfil">
                 <div class="titulos">
-                    <h2 class="titulo__bio">Hola, mi nombre es Diego Garcia Coronado y construyo páginas web</h2>
+                    <h2 class="titulo__bio">Hola, mi nombre es Diego Garcia y construyo páginas web</h2>
                     <h3 class="titulo__subsection">Soy de México, estudio en el TecNM Campus Costa Chica y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam.</h3>
                     <ul class="redes">
                         <li class="redes__item"><a href="https://github.com/DI3906" class="redes__link"><img src="./assets/img/icon/github-svgrepo-com.svg" alt="Logo Github" class="redes__logo">Github</a></li>
@@ -89,25 +117,25 @@
         <section class="skill" id="skills">
             <h3 class="skill__titulo titulo">Skills</h3>
             <ul class="skill__lista">
-                <li class="skill__lista-item"><img src="assets/img/icons8-html.svg" alt="Logo HTML" class="img__skill">HTML 5</li>
-                <li class="skill__lista-item"><img src="assets/img/icons8-css.svg" alt="Logo CSS" class="img__skill">CSS</li>
-                <li class="skill__lista-item"><img src="assets/img/icons8-javascript.svg" alt="Logo JavaScript" class="img__skill">JavaScript</li>
-                <li class="skill__lista-item"><img src="assets/img/icons8-logotipo-de-java-coffee-cup.svg" alt="Logo Java" class="img__skill">Java</li>
+                <li class="skill__item"><img src="assets/img/icon/icons8-html.svg" alt="Logo HTML" class="skill__img">HTML 5</li>
+                <li class="skill__item"><img src="assets/img/icon/icons8-css.svg" alt="Logo CSS" class="skill__img">CSS</li>
+                <li class="skill__item"><img src="assets/img/icon/icons8-javascript.svg" alt="Logo JavaScript" class="skill__img">JavaScript</li>
+                <li class="skill__item"><img src="assets/img/icon/icons8-logotipo-de-java-coffee-cup.svg" alt="Logo Java" class="skill__img">Java</li>
             </ul>
         </section>
     <!--H O B B I E S-->
         <section class="hobbie" id="hobbies">
             <h3 class="hobbie__titulo titulo">Hobbies</h3>
             <ul class="hobbie__lista">
-                <li class="hobbie__lista-item"><img src="assets/img/chess.svg" alt="Ajedrez" class="hobbie__img">Ajedrez</li>
-                <li class="hobbie__lista-item"><img src="assets/img/monitor-play.svg" alt="Cine" class="hobbie__img">Ver series</li>
-                <li class="hobbie__lista-item"><img src="assets/img/headphones.svg" alt="Música" class="hobbie__img">Oir música</li>
+                <li class="hobbie__item"><img src="assets/img/chess-svgrepo-com.svg" alt="Ajedrez" class="hobbie__img">Ajedrez</li>
+                <li class="hobbie__item"><img src="assets/img/tv-svgrepo-com.svg" alt="Cine" class="hobbie__img">Ver series</li>
+                <li class="hobbie__item"><img src="assets/img/headphone-music-multimedia-svgrepo-com.svg" alt="Música" class="hobbie__img">Oir música</li>
             </ul>
         </section>
     <!--F O R M A C I O N-->
     <section class="formacion" id="formacion">
         <h3 class="formacion__titulo titulo">Formación Académica</h3>
-        <div class="formacion__academica">
+        <div class="formacion__contenedor">
             <ul class="formacion__lista">
                 <li class="formacion__lista-img"><img src="assets/img/TecNM-logo.png" alt="Logo TecNM" class="formacion__img"></li>
                 <li class="formacion__lista-titulo">TecNM Campus Costa Chica</li>
@@ -123,16 +151,42 @@
     <!--E X P E R I E N C I A-->
     <section class="experiencia" id="xp">
         <h2 class="experiencia__titulo titulo">Experiencia Profesional</h2>
-        <div class="experiencia__caja">
-            <img src="assets/img/encriptador.png" alt="Encriptador" class="experiencia__img">
-            <div class="experiencia__info">
-                <h3 class="experiencia__info-titulo">Encriptador de texto</h3>
-                <p class="experiencia__info-texto">Challenge Alura Codificador</p>
-                <div class="experiencia__descripcion">
-                    <span class="experiencia__repositorio"><a href="https://github.com/DI3906/Encriptador"><button class="experiencia__repositorio-boton boton-iluminado">Repositorio</button></a></span>
-                    <span class="experiencia__demo"><a href="https://di3906.github.io/Encriptador/"><button class="experiencia__demo-boton boton-iluminado">Ver demo</button></a></span>
+        <div class="experiencia__contenedor">
+            <div class="proyecto">
+                <img src="./assets/img/encriptador.png" alt="Encriptador" class="proyecto__imagen">
+                <div class="proyecto__info">
+                    <h3 class="proyecto__info-titulo titulo">Encriptador de texto</h3>
+                    <p class="proyecto__info-texto parrafo">Challenge Alura Codificador</p>
+                    <div class="proyecto__info-botones">
+                        <a href="https://github.com/DI3906/Encriptador" class="boton parrafo">Repositorio</a>
+                        <a href="https://di3906.github.io/Encriptador/" class="boton parrafo">Ver demo</a>
+                    </div>
                 </div>
             </div>
+            <div class="proyecto">
+                <img src="./assets/img/encriptador.png" alt="Encriptador" class="proyecto__imagen">
+                <div class="proyecto__info">
+                    <h3 class="proyecto__info-titulo titulo">Encriptador de texto</h3>
+                    <p class="proyecto__info-texto parrafo">Challenge Alura Codificador</p>
+                    <div class="proyecto__info-botones">
+                        <a href="https://github.com/DI3906/Encriptador" class="boton parrafo">Repositorio</a>
+                        <a href="https://di3906.github.io/Encriptador/" class="boton parrafo">Ver demo</a>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="proyecto">
+                <div class="proyecto__titulo"></div>
+                <img src="assets/img/encriptador.png" alt="Encriptador" class="experiencia__img">
+                <div class="experiencia__info">
+                    <h3 class="experiencia__info-titulo">Encriptador de texto</h3>
+                    <p class="experiencia__info-texto">Challenge Alura Codificador</p>
+                    <div class="experiencia__descripcion">
+                        
+                        <span class="experiencia__repositorio"><a href="https://github.com/DI3906/Encriptador"><button class="experiencia__repositorio-boton boton-iluminado">Repositorio</button></a></span>
+                        <span class="experiencia__demo"><a href="https://di3906.github.io/Encriptador/"><button class="experiencia__demo-boton boton-iluminado">Ver demo</button></a></span>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </section>
     <!--C O N T A C T O-->
@@ -159,5 +213,6 @@
     </footer>
 
     <script src="./js/app.js" type="module"></script>
+    <script src="./js/prueba.js"></script>
 </body>
 </html>

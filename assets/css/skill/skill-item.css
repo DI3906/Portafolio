@@ -1,0 +1,29 @@
+.skill__item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    font-family: var(--raleway);
+    color: var(--color-font);
+
+    margin-right: 3rem;
+
+    width: 10rem;
+    height: 10rem;
+
+    border: 1px solid var(--color-font);
+    border-radius: .5rem;
+
+}
+
+.skill__item:hover{
+    box-shadow: -9px 11px 72px -6px rgba(255,255,255,0.63);
+    -webkit-box-shadow: -9px 11px 72px -6px rgba(255,255,255,0.63);
+    -moz-box-shadow: -9px 11px 72px -6px rgba(255,255,255,0.63);
+}
+
+.skill__item:nth-last-child(1){
+    margin-right: 0;
+}

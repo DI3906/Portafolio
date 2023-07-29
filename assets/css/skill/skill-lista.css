@@ -1,0 +1,4 @@
+.skill__lista{
+    display: flex;
+    flex-wrap: wrap;
+}

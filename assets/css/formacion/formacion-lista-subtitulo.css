@@ -1,0 +1,6 @@
+.formacion__lista-subtitulo{
+    font-family: var(--raleway);
+    text-align: center;
+    font-weight: 400;
+    color: var(--color-font);
+}

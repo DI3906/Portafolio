@@ -1,0 +1,4 @@
+.proyecto__info-botones{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,20 +1,15 @@
 .experiencia{
-    background: var(--background-1);
+    width: 90%;
+    margin: auto;
+
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
-    padding-top: 2%;
-}
 
-.experiencia__caja{
-    display: flex;
-    align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
+    padding: 3rem 0;
 
-.experiencia__img{
-    width: 47rem;
+    border-top: 1px solid var(--color-font);
 }
 
 .experiencia__info{

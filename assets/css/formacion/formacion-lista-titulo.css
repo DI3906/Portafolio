@@ -1,0 +1,6 @@
+.formacion__lista-titulo{
+    font-family: var(--raleway);
+    text-align: center;
+    font-weight: 600;
+    color: var(--color-font);
+}

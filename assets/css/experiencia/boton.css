@@ -1,0 +1,14 @@
+.boton{
+    font-size: 1rem;
+    color: var(--color-font);
+
+    border: 2px solid var(--color-titulo);
+    border-radius: 4px;
+
+    padding: 1rem;
+}
+
+.boton:hover{
+    background: var(--color-titulo);
+    transition: .5s;
+}

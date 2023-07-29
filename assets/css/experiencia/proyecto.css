@@ -1,0 +1,17 @@
+.proyecto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-bottom: 2rem;
+}
+
+.proyecto:nth-last-child(1){
+    margin-bottom: 0;
+}
+
+.proyecto:nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+}
