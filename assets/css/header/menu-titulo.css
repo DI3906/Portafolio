@@ -1,6 +1,7 @@
 .menu__titulo{
     color: var(--color-font);
 
+    font-family: var(--geologica);
     font-weight: bold;
     font-size: 1.25rem;
 /* 

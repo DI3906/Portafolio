@@ -8,4 +8,6 @@
     align-items: center;
 
     color: var(--rojo-base);
+
+    border-top: 1px solid var(--color-font);
 }

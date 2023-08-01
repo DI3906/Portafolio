@@ -1,0 +1,12 @@
+.input__titulo{
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    
+    font-family: var(--raleway);
+    font-size: 17px;
+    
+    color: var(--color-font);
+    pointer-events: none;
+}

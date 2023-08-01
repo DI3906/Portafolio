@@ -1,113 +1,18 @@
 .contacto{
-    background: var(--background-2);
-}
+    width: 90%;
+    margin: auto;
+    
+    border-top: 1px solid var(--color-font);
 
-.contacto__caja{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contacto__subtitulo{
-    font-family: var(--raleway);
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-}
-
-.contacto__form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contacto__form-input{
-    width: 41rem;
-    height: 3.5rem;
-    margin-bottom: 1rem;
-    border-radius: .5rem;
-    border-color: var(--color-boton);
-    font-family: var(--raleway);
-    font-size: 1rem;
-    padding-left: 1rem;
-    background: var(--background-1);
-}
-
-.contacto__form-textarea{
-    width: 41rem;
-    height: 8.313rem;
-    resize: none;
-    margin-bottom: 1rem;
-    border-radius: .5rem;
-    border-color: var(--color-boton);
-    font-family: var(--raleway);
-    font-size: 1rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    background: #F5EFE7;
-}
-
-.contacto__form-boton{
-    font-family: var(--raleway);
-    font-size: 1rem;
-    font-weight: bold;
-    color: var(--background-1);
-    background: var(--color-boton);
-    width: 9rem;
-    height: 3rem;
-    border-color: var(--color-boton);
-    border-radius: .5rem;
-    margin-bottom: 2rem;
-}
-
-.contacto__form-boton:hover{
-    background: var(--color-font);
-    transition: 1s;
-}
-
-.contacto__form--invalid {
-    margin-bottom: 0.5rem;
-}
-  
-.contacto__form--invalid .contacto__form-input {
-    border: 1px solid var(--warning-color);
-    border-radius: 7px;
+    padding: 3rem 0;
 }
 
 /*M Ó V I L*/
 @media (max-width: 575.98px){
-    .contacto__caja{
-        display: flex;
-        align-items: flex-start;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
 
-    .contacto__form-input{
-        width: 85vw;
-    }
-
-    .contacto__form-textarea{
-        width: 85vw;
-    }
-
-    .contacto__form{
-        display: flex;
-        align-items: flex-start;
-    }
 }
 
 /*T A B L E T*/
 @media (min-width: 576px) and (max-width: 991.98px){
-    .contacto__form-input{
-        width: 85vw;
-    }
-
-    .contacto__form-textarea{
-        width: 85vw;
-    }
-
-    .contacto__form{
-        display: flex;
-        align-items: flex-start;
-    }
+    
 }
