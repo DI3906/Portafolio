@@ -10,13 +10,22 @@
 
     width: 15rem;
     height: 10rem;
-/* 
-    border-radius: 0.5rem;
-    border: 1px solid var(--color-font); */
 
     margin-right: 3rem;
 }
 
 .formacion__lista:nth-last-child(1){
     margin-right: 0;
+}
+
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .formacion__lista{
+        margin: 0;
+    }
+}
+
+/*T A B L E T A*/
+@media (max-width: 768px) {
 }

@@ -1,8 +1,5 @@
 .skill__lista{
     display: flex;
     flex-wrap: wrap;
-}
-
-.skill__lista:hover > :not(:hover){
-    opacity: .4;
+    justify-content: center;
 }

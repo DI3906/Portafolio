@@ -1,8 +1,5 @@
 .hobbie__lista{
     display: flex;
     flex-wrap: wrap;
-}
-
-.hobbie__lista:hover > :not(:hover){
-    opacity: .4;
+    justify-content: center;
 }

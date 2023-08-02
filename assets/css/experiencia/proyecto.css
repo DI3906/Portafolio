@@ -15,3 +15,31 @@
     display: flex;
     flex-direction: row-reverse;
 }
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .proyecto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .proyecto:nth-child(even){
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .proyecto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .proyecto:nth-child(even){
+        display: flex;
+        flex-direction: column;
+    }
+}

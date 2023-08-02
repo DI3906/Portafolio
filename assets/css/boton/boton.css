@@ -43,3 +43,19 @@
 .boton:nth-last-child(1){
     margin-right: 0;
 }
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .boton{
+        width: auto;
+    }
+
+    .boton:hover{
+        color: var(--color-font);
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    
+}

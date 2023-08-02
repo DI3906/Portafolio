@@ -12,18 +12,27 @@
 
     width: 10rem;
     height: 10rem;
-    
-    border-radius: .5rem;
-
-    transition: .5s;
-}
-
-.skill__item:hover{
-    box-shadow: -9px 11px 72px -6px rgba(255,255,255,0.63);
-    -webkit-box-shadow: -9px 11px 72px -6px rgba(255,255,255,0.63);
-    -moz-box-shadow: -9px 11px 72px -6px rgba(255,255,255,0.63);
 }
 
 .skill__item:nth-last-child(1){
     margin-right: 0;
+}
+
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .skill__item{
+        width: 8rem;
+        height: 8rem;
+        margin: 0;
+    }
+}
+
+/*T A B L E T A*/
+@media (max-width: 768px) {
+    .skill__item{
+        width: 8rem;
+        height: 8rem;
+        margin: 0;
+    }
 }

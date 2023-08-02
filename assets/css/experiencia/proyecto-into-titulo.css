@@ -3,3 +3,19 @@
     color: var(--color-font);
     padding-bottom: 1rem;
 }
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .proyecto__info-titulo{
+        font-size: 1.25rem;
+        padding: .5rem 0;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    .proyecto__info-titulo{
+        font-size: 1.25rem;
+        padding: .5rem 0;
+    }
+}

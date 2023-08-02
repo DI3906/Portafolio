@@ -2,3 +2,15 @@
     width: 5rem;
     padding-bottom: .5rem;
 }
+
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .skill__img{
+        width: 4rem;
+    }
+}
+
+/*T A B L E T A*/
+@media (max-width: 768px) {
+}

@@ -9,6 +9,8 @@
     .img__perfil{
         width: 98px;
         height: 98px;
+
+        padding-bottom: 1rem;
     }
 }
 

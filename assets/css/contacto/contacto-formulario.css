@@ -1,3 +1,15 @@
 .contacto__formulario{
     width: 55%;
 }
+
+/*M Ó V I L*/
+@media (max-width: 575.98px){
+    .contacto__formulario{
+        width: 100%;
+    }
+}
+
+/*T A B L E T*/
+@media (min-width: 576px) and (max-width: 991.98px){
+    
+}
